@@ -13,7 +13,7 @@ driver.get("https://amanshah20.github.io/Textchanger/")  # Update this with the 
 time.sleep(2)  # Adding a delay to see the result
 
 # Assert some condition to verify the result
-assert "My Awesome Website" in driver.title
+assert "Simple Web Page" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
